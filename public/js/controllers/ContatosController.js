@@ -1,4 +1,9 @@
 angular.module('contatooh').controller('ContatosController', 
     function($scope){
-      var total = 0;
+       
+       $scope.total = 0;
+
+       $scope.incrementa = function() {
+           $scope.total ++;
+       }
 });
